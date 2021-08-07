@@ -1,0 +1,9 @@
+/* Add here all your CSS customizations */
+h4.nama-produk{
+	color: #5BC0DE;
+}
+
+span a.detail{
+  color: #0398fc;
+  font-size: 15px;
+}
