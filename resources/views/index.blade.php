@@ -50,7 +50,7 @@
                 @foreach($produk as $p)
                 <div class="single-products-catagory clearfix">
                     <a href="/detail-produk/{{$p->id}}">
-                        <img src="{{HTML::image('$p->img') }}" alt="">
+                        <img src="{{$p->img}}" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
